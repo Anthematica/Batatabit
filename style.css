@@ -5,3 +5,14 @@
 4. Estilos visuales --> box-shadow, border-radius, gradient, etc
 5. Otros --> reglas CSS y más
 */
+:root {
+    --Bitcoin-Orange:  #F7931A;
+    --Soft-Orange: #FFE9D5;
+    --Secondary-Blue: #1A9AF7;
+    --Soft-Blue: #E7F5FF;
+    --Warm-Black:  #201E1C;
+    --Black: #282623;
+    --Grey: #BABABA;
+    --Off-White: #FAF8F7;
+    --Just-white: #fff;
+}
