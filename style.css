@@ -28,3 +28,16 @@ html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+
+/*Agregando estilos al header*/
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
