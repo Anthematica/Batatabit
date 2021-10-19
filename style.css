@@ -41,3 +41,17 @@ header {
     height: 334px;
     text-align: center;
 }
+/*Estilos al logo*/
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+}
+/*Estilos al div*/
+.header--title-container {
+    width: 90%;
+    min-width: 288px; /*No va a hacerse más pequeño que 288px*/
+    max-width: 900px; /*No va a crecer más que 900px*/
+    height: 218px;
+    margin-top: 40px;
+}
