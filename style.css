@@ -40,6 +40,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background:  linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); /*Degradado*/
 }
 /*Estilos al logo*/
 header img {
@@ -54,4 +55,19 @@ header img {
     max-width: 900px; /*No va a crecer más que 900px*/
     height: 218px;
     margin-top: 40px;
+}
+/*Estilos al h1*/
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem; /*Distancia entre salto de linea*/
+    color: var(--Just-white);
+}
+/*Estilos al Parrafo del header*/
+.header--title-container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Soft-Orange);
+    margin-top: 24px;
 }
