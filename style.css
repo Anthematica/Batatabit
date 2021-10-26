@@ -144,3 +144,21 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/*Estilos al h2*/
+.main-exchange-container h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Black);
+    margin-bottom: 30px;
+}
+
+/*Estilos al p de la sección de intercambio*/
+.main-exchange-container p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
