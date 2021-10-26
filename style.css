@@ -265,3 +265,20 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/*Mensaje de actualización contenedor*/
+.currency-table--date {
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 8px;
+    width: 210px;
+    height: 30px;
+    background-color: var(--Soft-Orange);
+    border-radius: 8px;
+}
+.currency-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem ;
+    font-family: "Inter", sans-serif;
+    color: var(--Warm-Black);
+}
