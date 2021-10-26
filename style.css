@@ -124,9 +124,23 @@ main {
     min-width: 320px;
 }
 
+/*Estilos bases a los titulos de la sección de intercambio*/
 .main-exchange-container--title {
     width: 90%;
     margin: 0 auto;
     min-width: 288px;
     max-width: 900px;
+}
+
+/*Agregando la imagen de la sección de intercambio y dandole estilos*/
+.main-exchange-container .backgroundImg {
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/img/Bitcoin.svg");
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /*por buenas practicas*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
