@@ -107,6 +107,26 @@ h1 {
 
 /*Estilos a la sección de intercambio*/
 .main-exchange-container {
-    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    /* margin-top: 50px; */
 
+}
+
+/*Estilo al main*/
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--Off-White);
+    min-width: 320px;
+}
+
+.main-exchange-container--title {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 288px;
+    max-width: 900px;
 }
