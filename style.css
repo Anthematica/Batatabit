@@ -163,16 +163,6 @@ main {
     color: #757575;
 }
 
-/*Estilos al section de las tablas*/
-.main-tables-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 /*Estilos a las al contenedor de las tablas*/
 .main-currency-table {
     width: 70%; 
