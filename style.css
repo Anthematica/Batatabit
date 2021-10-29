@@ -183,13 +183,22 @@ main {
     font-family: "Inter", sans-serif;
 }
 
-/*Estilos al titulo*/
+/*Estilos al titulo de monedas*/
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
-    line-height: 2.rem;
+    line-height: 2rem;
     color: var(--Bitcoin-Orange);
+}
+
+/*Estilos al titulo de comisiones*/
+.main-currency-table .comition-table--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: var(--Secondary-Blue);
 }
 
 /*Estilos al contendor de la tabla*/
@@ -276,6 +285,11 @@ main {
     background-color: var(--Soft-Orange);
     border-radius: 8px;
 }
+/*Mensaje de actualización de la otra tabla*/
+#table-date {
+    background-color: var(--Soft-Blue);
+}
+
 .currency-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem ;
