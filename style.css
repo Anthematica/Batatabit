@@ -622,6 +622,7 @@ main {
 /*Scroll horizontal con las tarjetas*/
 .plans-container--slider {
     display: flex;
+    gap: 15px;
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
