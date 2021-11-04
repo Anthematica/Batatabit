@@ -411,3 +411,25 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+
+.product-detail--card .dollar-sign {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/dollar-sign.svg");
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail--card .check-sign {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/check-circle.svg");
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
