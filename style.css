@@ -499,6 +499,21 @@ main {
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
+.plans-container--card2 { 
+    position: relative;
+    width: 70%;
+    height: 250px;
+    min-width: 230px;
+    max-width: 300px;
+    background-color: var(--Just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    margin:0 auto;
+    margin-top: 50px;
+    padding: 0 15px;
+}
+
+
 .recommended {
     position: absolute;
     width: 120px;
@@ -511,6 +526,21 @@ main {
     color: var(--Just-white);
     padding: 6px; 
 }
+
+.plans-container--card2 .expert {
+    width: 120px;
+    height: 31px;
+    background-color: var(--Secondary-Blue);
+    border-radius: 8px;
+    color: var(--Just-white);
+    font-size: 1.2rem;
+    padding: 6px;
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -15px;
+}
+
+
 
 .plan-card--title {
     padding-top: 30px;
@@ -548,7 +578,7 @@ main {
     width: 150px;
     height: 48px;
     margin-top: 20px;
-    background-color: #faf8f7 ;
+    background-color: #faf8f7;
     border: 2px solid var(--Bitcoin-Orange);
     border-radius: 4px;
     font-family: "DM Sans", sans-serif;
@@ -558,7 +588,28 @@ main {
     color: var(--Black);
 }
 
+.plan-card--ca2 {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--Secondary-Blue);
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--Black);
+}
+
 .plan-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/orange-right-arrow.svg") ;
+    vertical-align: text-bottom;
+}
+.plan-card--ca2 span {
     display: inline-block;
     width: 20px;
     height: 20px;
