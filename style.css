@@ -452,3 +452,36 @@ main {
     text-align: center;
     padding-top: 60px;
 }
+
+/*Estilos a la sección de planes*/
+.main-plans-container {
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    padding-bottom: 70px; /*Para elejar el contenido final con el footeer*/
+    text-align: center;
+}
+
+.plans--title {
+    width: 90%; /*Para poder centrar el contenedor*/
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.plans--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Black);
+}
+
+.plans--title p {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575
+}
