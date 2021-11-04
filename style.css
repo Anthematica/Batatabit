@@ -488,6 +488,7 @@ main {
 
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -501,6 +502,7 @@ main {
 
 .plans-container--card2 { 
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     height: 250px;
     min-width: 230px;
@@ -615,4 +617,13 @@ main {
     height: 20px;
     background-image: url("./assets/icons/orange-right-arrow.svg") ;
     vertical-align: text-bottom;
+}
+
+/*Scroll horizontal con las tarjetas*/
+.plans-container--slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
