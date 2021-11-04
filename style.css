@@ -333,6 +333,7 @@ main {
     color: #808080;
 }
 
+/*Estilando las laminas de información */
 .product-detail--card {
     width: 90%;
     min-width: 288px;
@@ -346,6 +347,30 @@ main {
 
 }
 
+.product-detail--card2{
+    width: 90%;
+    height: 150px;
+    min-width: 288px;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--Black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card2 .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/eye.svg");
+    /*Ajustar la imagen*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+
+}
 .product-detail--card .clock {
     display: inline-block;
     width: 20px;
@@ -363,10 +388,24 @@ main {
     line-height: 1.8rem;
     color: var(--Just-white);
     margin-bottom: 10px;
+}
 
+.product-detail--card2 .product--card-title2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--Just-white);
+    margin-bottom: 10px;
 }
 
 .product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card2 .product--card-body2 {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
