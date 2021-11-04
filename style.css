@@ -628,3 +628,33 @@ main {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: var(--Bitcoin-Orange);
+}
+
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.footer-left ul li {
+    margin: 10px 0;
+}
+.footer-left ul li a {
+    text-decoration: none;
+    color: var(--Just-white);
+}
